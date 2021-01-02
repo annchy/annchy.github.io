@@ -1,0 +1,158 @@
+/*
+.main-name {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Sacramento', cursive;
+}*/
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #70af85;
+    margin-top: 0;
+    margin: 3%;
+    /* 16px = 100% = 1em */
+    font-size: 4.375rem;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h2 {
+    color: #70af85;
+    font-size: 1.875em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h3 {
+    font-size: 30px;
+    color: #6b936e;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #cafbeb 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 70px auto;
+}
+
+.top-container {
+    background-color: #cafbeb;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {}
+
+.bottom-container {
+    background-color: #cafbeb;
+    padding: 50px 0 16px;
+}
+
+.front-p {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 40px;
+    margin-bottom: 70px;
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 70px 25% 100px 25%;
+    text-align: left;
+    padding: 20px;
+}
+
+.skill-img1 {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin: 20px;
+
+}
+
+.skill-img2 {
+    height: 25%;
+    width: 25%;
+    float: right;
+    padding: 20px;
+
+}
+
+.skills-p {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    height: 10%;
+    width: 15%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    height: 10%;
+    width: 15%;
+}
+
+.mountain-img {
+    margin-top: 10px;
+    height: 45%;
+    width: 45%;
+}
+
+.skills-h3 {
+    color: #6b936e;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15%;
+}
+
+.contacts-p {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-p {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
