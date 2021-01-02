@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    color: #70af85;
+    color: #4e8d7c;
     font-size: 1.875em;
     font-family: 'Raleway', sans-serif;
 
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: #6b936e;
+    color: #4e8d7c;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -61,6 +61,7 @@ hr {
 .middle-container {}
 
 .bottom-container {
+    margin-top: 30px;
     background-color: #cafbeb;
     padding: 50px 0 16px;
 }
@@ -155,4 +156,31 @@ hr {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+  background: #cafbeb;
+  background-image: -webkit-linear-gradient(top, #cafbeb, #4e8d7c);
+  background-image: -moz-linear-gradient(top, #cafbeb, #4e8d7c);
+  background-image: -ms-linear-gradient(top, #cafbeb, #4e8d7c);
+  background-image: -o-linear-gradient(top, #cafbeb, #4e8d7c);
+  background-image: linear-gradient(to bottom, #cafbeb, #4e8d7c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #cafbeb;
+  background-image: -webkit-linear-gradient(top, #cafbeb, #40514E);
+  background-image: -moz-linear-gradient(top, #cafbeb, #40514E);
+  background-image: -ms-linear-gradient(top, #cafbeb, #40514E);
+  background-image: -o-linear-gradient(top, #cafbeb, #40514E);
+  background-image: linear-gradient(to bottom, #cafbeb, #40514E);
+  text-decoration: none;
 }
