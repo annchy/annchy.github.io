@@ -165,7 +165,7 @@ hr {
     font-family: 'Open Sans', sans-serif;
 }
 
-.footer-link{
+.footer-link {
     padding: 10px;
 }
 
@@ -188,6 +188,7 @@ hr {
 
 .btn:hover {
     background: #cafbeb;
+    color: white;
     background-image: -webkit-linear-gradient(top, #cafbeb, #40514E);
     background-image: -moz-linear-gradient(top, #cafbeb, #40514E);
     background-image: -ms-linear-gradient(top, #cafbeb, #40514E);
@@ -195,6 +196,3 @@ hr {
     background-image: linear-gradient(to bottom, #cafbeb, #40514E);
     text-decoration: none;
 }
-
-
-
