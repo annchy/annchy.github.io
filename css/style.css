@@ -196,3 +196,138 @@ hr {
     background-image: linear-gradient(to bottom, #cafbeb, #40514E);
     text-decoration: none;
 }
+
+.card1 {
+
+    margin: 50px;
+    margin-left: 80px;
+    transform: scale(0.9);
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image""text""stats";
+
+    font-family: roboto;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 19.7%;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-image1 {
+    grid-area: image;
+    background: url('https://picsum.photos/id/10/367/267');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text1 {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text1 .date1 {
+    color: hotpink;
+    font-size: 13px;
+}
+
+.card-text1 h2 {
+    margin-top: 3px;
+    ;
+    font-size: 28px;
+}
+
+.card-text1 p {
+    color: gray;
+    font-size: 15;
+    font-weight: 300;
+}
+
+.card-stats1 {
+    grid-area: stats;
+    background-color: #cafbeb;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-stats1 .card-stats-link1 {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card1:hover {
+    transform: scale(0.95);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease;
+}
+
+
+.card2 {
+    margin-left: 80px;
+    transform: scale(0.9);
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image""text""stats";
+
+    font-family: roboto;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 19.7%;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-image2 {
+    grid-area: image;
+    background: url('https://picsum.photos/id/1000/367/267');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text2 {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text2 .date2 {
+    color: hotpink;
+    font-size: 13px;
+}
+
+.card-text2 h2 {
+    margin-top: 3px;
+    ;
+    font-size: 28px;
+}
+
+.card-text2 p {
+    color: gray;
+    font-size: 15;
+    font-weight: 300;
+}
+
+.card-stats2 {
+    grid-area: stats;
+    background-color: #cafbeb;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-stats2 .card-stats-link2 {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card2:hover {
+    transform: scale(0.95);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease;
+}
