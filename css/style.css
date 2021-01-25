@@ -284,7 +284,7 @@ hr {
 .card-image1 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml1.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -293,7 +293,7 @@ hr {
 .card-image2 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml2.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -302,7 +302,7 @@ hr {
 .card-image3 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml3.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -311,7 +311,7 @@ hr {
 .card-image4 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml4.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -320,7 +320,7 @@ hr {
 .card-image5 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml5.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -329,7 +329,7 @@ hr {
 .card-image6 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml6.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -338,7 +338,7 @@ hr {
 .card-image7 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml7.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -347,7 +347,7 @@ hr {
 .card-image8 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml8.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -356,11 +356,57 @@ hr {
 .card-image9 {
     /*    grid-area: image;*/
     height: 300px;
-    background: url('https://picsum.photos/id/10/367/267');
+    background: url('../img/imgml9.png');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
 }
+
+.card-web-image1 {
+    /*    grid-area: image;*/
+    height: 300px;
+    background: url('../img/imgweb1.png');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-web-image2 {
+    /*    grid-area: image;*/
+    height: 300px;
+    background: url('../img/imgweb2.png');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-web-image3 {
+    /*    grid-area: image;*/
+    height: 300px;
+    background: url('../img/imgweb3.png');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-web-image4 {
+    /*    grid-area: image;*/
+    height: 300px;
+    background: url('../img/imgweb4.png');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-web-image5 {
+    /*    grid-area: image;*/
+    height: 300px;
+    background: url('../img/imgweb5.png');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
 
 .navbar {
     color: black;
