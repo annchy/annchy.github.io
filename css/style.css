@@ -206,22 +206,28 @@ hr {
     padding: 50px;
 }
 
+.webproject {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 50px;
+}
+
 .card {
     /*    max-width: 300px;*/
     /*
     position: relative;
     left: 10%;
 */
-
     margin: 50px auto;
     /*    margin-left: 80px;*/
     transform: scale(0.9);
-/*    display: grid;*/
+    /*    display: grid;*/
     /*    grid-template-columns: 300px;*/
     grid-template-rows: 210px 210px 80px;
     /*    grid-template-areas: "image""text""stats";*/
-
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     border-radius: 15px;
     background: white;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.9);
@@ -243,7 +249,7 @@ hr {
 
 .card-text h2 {
     margin-top: 3px;
-    ;
+
     font-size: 30px;
 }
 
@@ -254,6 +260,7 @@ hr {
 }
 
 .card-stats {
+    vertical-align: bottom;
     height: 120px;
     /*    grid-area: stats;*/
     background-color: #cafbeb;
@@ -265,7 +272,7 @@ hr {
     font-size: 25px;
     padding-top: 35px;
     justify-content: center;
-/*    margin-top: 30px;*/
+    /*    margin-top: 30px;*/
 }
 
 .card:hover {
@@ -354,3 +361,35 @@ hr {
     border-top-right-radius: 15px;
     background-size: cover;
 }
+
+.navbar {
+    color: black;
+    position: fixed;
+    left: 0%;
+    top: 25%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 5px;
+    width: 200px;
+    background-color: #a6f0c6;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.navbar a {
+    color: black;
+
+}
+
+.navbar:hover {
+    transform: scale(1.20);
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+
